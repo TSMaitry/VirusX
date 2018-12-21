@@ -1,4 +1,7 @@
+ import time
  #Set color
+ R = '\033[31m' # Red
+print
 print ""+R" db    db d888888b d8888b. db    db .d8888. db    db "
 print ""+R" 88    88   `88'   88  `8D 88    88 88'  YP `8b  d8' "
 print ""+R" Y8    8P    88    88oobY' 88    88 `8bo.    `8bd8'  "
