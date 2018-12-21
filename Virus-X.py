@@ -36,7 +36,7 @@ def main():
     time.sleep(2)
     print ""+G+"Cloning repo..."
     time.sleep(6)
-    os.system("cd ..;rm -rf Virus-X;git clone https://github.com/TSMaitry/Virus-X;cd Virus-X;python2 virus-x.py")
+    os.system("cd ..;rm -rf Virus-X;git clone https://github.com/TSMaitry/Virus-X;cd Virus-X;python2 Virus-.py")
     main()
 if __name__ == "__main__":
 	main()
