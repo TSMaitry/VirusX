@@ -5,8 +5,8 @@ G = '\033[32m' # Green
 O = '\033[0;33m' # Orange
 B = '\033[1;34m' #Blue
 print 
-print ("┏━━━━━━━━━━━━━━━━┓")
-print ("┃ 1. Virus                ┃")
+print ('┏━━━━━━━━━━━━━━━━┓')
+print ('┃ 1. Virus                ┃')
 print ("┃ 2. Virus                ┃")
 print ("┃ 3. Virus                ┃")
 print ("┃ 4. Virus                ┃")
