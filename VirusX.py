@@ -17,7 +17,7 @@ print ("\033[49m                     Welcome To Virus-X                     \033
 print ("\033[48m                     Author: Trilok Singh                   \033[0m")
 print
 
-os.system("cd banner;python2 table.py")
+os.system("cd banner;bash table.sh")
 
 def help():
   print
