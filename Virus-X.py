@@ -31,12 +31,12 @@ def main():
     time.sleep(1)
     help()
     main()
-  elif dr == "virus-x update":
+  elif dr == "virusx update":
     print ""+G+"~ "+B+"UPDATING..."
     time.sleep(2)
     print ""+G+"Cloning repo..."
     time.sleep(6)
-    os.system("cd ..;rm -rf Virus-X;git clone https://github.com/TSMaitry/Virus-X;cd Virus-X;python2 Virus-.py")
+    os.system("cd ..;rm -rf VirusX;git clone https://github.com/TSMaitry/VirusX;cd VirusX;python2 Virus.py")
     main()
 if __name__ == "__main__":
 	main()
