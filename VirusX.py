@@ -33,15 +33,10 @@ def main():
     time.sleep(1)
     help()
     main()
-def delay_print(s):
-    for c in s:
-        sys.stdout.write(c)
-        sys.stdout.flush()
-        time.sleep(0.05)
-  elif dr == "virusx update":
-    delay_print (""+G+"~ "+B+"UPDATING...")
+ elif dr == "virusx update":
+    print ""+G+"~ "+B+"UPDATING..."
     time.sleep(1)
-    delay_print (""+G+"Cloning repo...")
+    print ""+G+"Cloning repo..."
     time.sleep(1)
     os.system("cd ..;rm -rf VirusX;git clone https://github.com/TSMaitry/VirusX;cd VirusX;python2 VirusX.py")
     main()
