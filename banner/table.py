@@ -5,5 +5,5 @@ G = '\033[32m' # Green
 O = '\033[0;33m' # Orange
 B = '\033[1;34m' #Blue
 print 
-print " ▛"
+print "┐ "
 print 
