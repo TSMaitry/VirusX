@@ -27,6 +27,6 @@ delay_print ("06. Android Decryptor 2\n")
 delay_print ("07. Android SMS Tief\n")
 delay_print ("08. Android Dangerous Malware\n")
 delay_print ("09. Android ENC Malware\n")
-delat_print ("10. Android Door Trojan\n")
+delay_print ("10. Android Door Trojan\n")
 delay_print ("exit\n")
 print 
