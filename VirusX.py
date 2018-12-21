@@ -13,9 +13,11 @@ O = '\033[0;33m' # Orange
 B = '\033[1;34m' #Blue
 os.system("cd banner;python2 banner4.py")
 print
-print ("\033[44m                     Welcome To Virus-X                     \033[0m")
-print ("\033[44m                     Author: Trilok Singh                   \033[0m")
+print ("\033[49m                     Welcome To Virus-X                     \033[0m")
+print ("\033[48m                     Author: Trilok Singh                   \033[0m")
 print
+
+os.system("cd banner;python2 table.py")
 
 def help():
   print
