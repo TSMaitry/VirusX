@@ -89,9 +89,9 @@ def main():
     main()
   elif dr == "10":
   	time.sleep(1)
-  	print "exiting..."
+  	print ""+R+"exiting..."
   	time.sleep(1)
-  	print "Good bye"
+  	print "bye_bye"
   	sys.exit()
   	main()
 if __name__ == "__main__":
