@@ -12,7 +12,7 @@ def force_to_unicode(text):
   return text if isinstance(text, unicode) else text.decode('utf8')
 
 print
-print ("┏━━━━━━━━━━━━━━━━━━━━━━┓")
+print ("┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓")
 print ("┃00.        Android Bootlop        ┃")
 print ("┃01.        Android Freezen        ┃")
 print ("┃02.         Android Ransn         ┃")
@@ -23,6 +23,6 @@ print ("┃06.        Android SMS Tief       ┃")
 print ("┃07.   Android Dangerous Malware   ┃")
 print ("┃08.      Android ENC Malware      ┃")
 print ("┃09.      Android Door Trojan      ┃")
-print ("┃10.         "+R+"EXIT             ┃")
-print ("┗━━━━━━━━━━━━━━━━━━━━━━┛")
+print ("┃10.           "+R+"EXIT               ┃")
+print ("┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛")
 print
