@@ -23,6 +23,6 @@ print (""+R+"┃"+B+"06."+G+"        Android SMS Tief"+R+"       ┃")
 print (""+R+"┃"+B+"07."+G+"   Android Dangerous Malware"+R+"   ┃")
 print (""+R+"┃"+B+"08."+G+"      Android ENC Malware"+R+"      ┃")
 print (""+R+"┃"+B+"09."+G+"      Android Door Trojan"+R+"      ┃")
-print (""+R+"┃"+B+"10."+R+"             EXIT               ┃")
+print (""+R+"┃"+B+"10."+R+"             EXIT              ┃")
 print (""+R+"┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛\033[0m")
 print
