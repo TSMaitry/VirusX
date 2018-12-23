@@ -109,7 +109,7 @@ def main():
   	main()
   else:
         print ("Invalid Input : "),dr
-        print (""+N+""+B+"["+R+"!"+B+"] "+N+"Please enter correct number")
+        os.system("cd script;python2 esprint.py")
 	print
 	main()
 if __name__ == "__main__":
