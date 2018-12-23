@@ -108,8 +108,8 @@ def main():
   	sys.exit()
   	main()
   else:
-        print ("\033[0;37;41m Invalid Input : \033[0m"),dr
-        print (""+N+""+B+"["+R+"!"+B+"] "+N+"Please enter correct input number")
+        print ("Invalid Input : "),dr
+        print (""+N+""+B+"["+R+"!"+B+"] "+N+"Please enter correct number")
 	print
 	main()
 if __name__ == "__main__":
