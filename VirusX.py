@@ -106,8 +106,7 @@ def main():
   	time.sleep(1)
   	print "bye_bye"
   	sys.exit()
-        
-    else :
+   else:
         print ("Invalid Input : "),dr
         os.system("cd script;python2 esprint.py")
 	print
