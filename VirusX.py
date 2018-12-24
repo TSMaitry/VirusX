@@ -105,7 +105,7 @@ def main():
 			print ""+B+"[*]"+N+"Finished"
 			print
 			main()
- elif dr == "05":
+  elif dr == "05":
 		dea = raw_input(""+N+"Virus"+B+"X > ")
 		if dea == "run":
 			time.sleep(1)
@@ -118,7 +118,7 @@ def main():
 			print ""+B+"[*]"+N+" Job finished"
 			print
 			main()
- elif dr == "06":
+  elif dr == "06":
 		dea = raw_input(""+N+"Virus"+B+"X > ")
 		if dea == "run":
 			time.sleep(1)
@@ -130,7 +130,7 @@ def main():
 			time.sleep(1)
 			print ""+B+"[*]"+N+"Finished"
 			main()
- elif dr == "07":
+  elif dr == "07":
 		dea = raw_input(""+N+"Virus"+B+"X > ")
 		if dea == "run":
 			time.sleep(1)
@@ -143,7 +143,7 @@ def main():
 			print ""+B+"[*]"+N+"Finished"
 			print
 			main()
- elif dr == "08":
+  elif dr == "08":
 		dea = raw_input(""+N+"Virus"+B+"X > ")
 		if dea == "run":
 			time.sleep(1)
@@ -156,7 +156,7 @@ def main():
 			print ""+B+"[*]"+N+"Finished"
 			print
 			main()
- elif dr == "09":
+  elif dr == "09":
 		dea = raw_input(""+N+"Virus"+B+"X > ")
 		if dea == "run":
 			time.sleep(1)
