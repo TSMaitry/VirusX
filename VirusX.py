@@ -41,7 +41,7 @@ def main():
 		android = raw_input(""+R+"Virus"+B+"X > ")
 		if android == "run":
 			time.sleep(1)
-			print (""+G+"DroiXAntivirus")
+			print (""+G+"DroidXAntivirus")
 			time.sleep(2)
 			print
 			print ""+B+"[*] "+N+"Downloading..."
