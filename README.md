@@ -13,3 +13,4 @@ $ cd VirusX
 $ chmod +x VirusX.py
 $ python2 VirusX.py
 ```
+**run command to Run.
