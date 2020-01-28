@@ -14,4 +14,11 @@ $ cd VirusX
 $ chmod +x VirusX.py
 $ python2 VirusX.py
 ```
-**run command to Run.**
+**Type "run" to download virus.**
+
+**To update VirusX**
+**Just type:**
+```
+$ update virusx
+```
+
