@@ -41,14 +41,14 @@ def main():
 		android = raw_input(""+R+"Virus"+B+"X > ")
 		if android == "run":
 			time.sleep(1)
-			print (""+G+"Bootloop")
+			print (""+G+"DroiXAntivirus")
 			time.sleep(2)
 			print
 			print ""+B+"[*] "+N+"Downloading..."
 			time.sleep(1)
-			os.system("cd virus;mkdir elite;cd elite;wget https://github.com/ashishb/android-malware/raw/master/unclassified_apks/DroidXAntivirus.apk")
+			os.system("cd virus;mkdir Antivirus;cd Antivirus;wget https://github.com/ashishb/android-malware/raw/master/unclassified_apks/DroidXAntivirus.apk")
 			print
-			print "Now check folder Virus on "+R+"/VirusX/virus/elite/"+N+""
+			print "Now check folder Virus on "+R+"/VirusX/virus/Antivirus/"+N+""
 			print ""+B+"[*]"+N+"Finished"
 			print
 			main()
